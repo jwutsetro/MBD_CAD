@@ -1,4 +1,4 @@
-## This github page is still under rconstruction. The trained models will only be made available after publication of the work. 
+# This github page is still under rconstruction. The trained models will only be made available after publication of the work. 
 
 # Computer-Aided Diagnosis of Skeletal Metastases in Multi-Parametric Whole-Body MRI
 Official Implementation of "Computer-Aided Diagnosis of Skeletal Metastases in Multi-Parametric Whole-Body MRI""
