@@ -11,11 +11,16 @@ The network architecture is made with the Dynamic Unet function of monai which i
 <div align=center><img src="https://github.com/jwutsetro/MBD_CAD/blob/main/U-net_architecture.png" width="1000" height="500" alt="Result"/></div>
 
 ## Installation & Usage
-### Enviroment (Python 3.8)
-- Install monai (version 0.7.0, CUDA == 0.12.0):
+### Instalation of monai 0.7
+The scripts are build making use of monai 0.7. Recent versions of monai are not compatible with the code as syntax has changed. When installing monai to run the scripts, ensure to install the correct version. 
+- Install monai (version 0.7.0) :
 ```
 pip install monai==0.7
 ```
+
+### Hardware requirements
+The models are trained on a 40Gb A100 GPU. To ensure smooth dataloading, at least 12 CPU cores should be available on the system. 
+### Running the scripts
 - Running the training script with default parameters:
 ```
 python Train.py --logdir=/path/to/logdir  --data_dir=/path/to/dataset
