@@ -1,3 +1,5 @@
+## This github page is still under rconstruction. The trained models will only be made available after publication of the work. 
+
 # Computer-Aided Diagnosis of Skeletal Metastases in Multi-Parametric Whole-Body MRI
 Official Implementation of "Computer-Aided Diagnosis of Skeletal Metastases in Multi-Parametric Whole-Body MRI""
 
@@ -30,7 +32,7 @@ python Train.py --logdir=/path/to/logdir  --data_dir=/path/to/dataset
 python Inference.py --pretrain_dir=/path/to/model_best.pt --data_dir=/path/to/Dataset --output_dir_root=/path/to/results --save_mask
 ```
 
-### Dataset
+## Dataset
 - To run the scripts, the dataset should be structered as indictated bellow. Note that each patient has 4 associated images to them: T1, b1000, ADC and mask. More clarification on the preprocessing steps applied to the image prior to running these scripts can be found in ( add reff later when paper is accapted) 
 ```
 |-- Dataset
@@ -63,19 +65,20 @@ python Inference.py --pretrain_dir=/path/to/model_best.pt --data_dir=/path/to/Da
 
 The Train and Validation folder need to have patients in it to use the Train.py script. To use the Inference.py script, the Test folder should contain patients. 
 
-### Preprocessing steps aaplied before training the different U-Nets. 
+## Preprocessing steps aplied before training the different U-Nets. 
+Different preprocessing steps can be applied prior to using the training and inference scripts provided on this page. When using the pretrained models that are available [here (Dynamic U-nets)](https://drive.google.com/drive/folders/1A3vIjswUFuXXESEiW-YdSL2jqyU2_SXL?usp=sharing), it is important to select a model that is trained with the same preprocessing applied to it as your data.  The table bellow describes the different preprocessing steps applied to models 1-5. For more information on the preprocessing, please have a look at the journal publication. 
 <div align=center><img src="https://github.com/jwutsetro/MBD_CAD/blob/main/Prepro_image.png" width="1000" alt="Result"/></div>
 <div align=center><img src="https://github.com/jwutsetro/MBD_CAD/blob/main/Prepro_table.png" width="1000" alt="Result"/></div>
 
-### Metastatic lesion Segmentation Figure Results
-Quantitative Comparison in Learning Ability of the UNet model with incremental complexity of preprocessing. 
+## Metastatic lesion Segmentation Figure Results
+Quantitative Comparison in learning ability of the U-Net model with incremental complexity of preprocessing. 
 <div align=center><img src="https://github.com/jwutsetro/MBD_CAD/blob/main/lesions_zoom_corrected.png" width="1000" alt="Result"/></div>
 
-### Saved U-Net Models
+## Saved U-Net Models
 The saved U-Net models obtained in this work can be found  [here (Dynamic U-nets)](https://drive.google.com/drive/folders/1A3vIjswUFuXXESEiW-YdSL2jqyU2_SXL?usp=sharing).
 
 
-### Citation
+## Citation
 If you think this paper helps, please cite:
 ```
 Fill in when paper is accepted
