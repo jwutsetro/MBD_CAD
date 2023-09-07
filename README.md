@@ -18,7 +18,7 @@ pip install monai==0.7
 ```
 - Running the training script with default parameters:
 ```
-python Train.py --logdir=/path/to/logdir  --data_dir=/path/to/dataset --val_every=1
+python Train.py --logdir=/path/to/logdir  --data_dir=/path/to/dataset
 ```
 - Running the Inference script with default parameters and saving the binary predictions:
 ```
