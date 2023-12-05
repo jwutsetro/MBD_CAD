@@ -2,7 +2,7 @@
 # Computer-Aided Diagnosis of Skeletal Metastases in Multi-Parametric Whole-Body MRI
 Official Implementation of "Computer-Aided Diagnosis of Skeletal Metastases in Multi-Parametric Whole-Body MRI"
 
-**The full paper is under revision at :** [Computer Methods and Programs in Biomedicine ](https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine)
+**The full paper is available at :** [Computer Methods and Programs in Biomedicine ](https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine)
 
 
 
