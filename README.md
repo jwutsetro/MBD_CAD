@@ -83,8 +83,12 @@ The saved U-Net models obtained in this work can be found  [here (Dynamic U-nets
 
 ## Citation
 If you think this paper helps, please cite:
+
+
+J. Ceranka, J. Wuts, O. Chiabai, F. Lecouvet, and J. Vandemeulebroucke, ‘Computer-aided diagnosis
+of skeletal metastases in multi-parametric whole-body MRI’, 
+Computer Methods and Programs in Biomedicine, vol. 242, p. 107811, 2023.
 ```
-J. Ceranka, J. Wuts, O. Chiabai, F. Lecouvet, and J. Vandemeulebroucke, ‘Computer-aided diagnosis of skeletal metastases in multi-parametric whole-body MRI’, Computer Methods and Programs in Biomedicine, vol. 242, p. 107811, 2023.
 
 @article{ceranka2023computer,
   title={Computer-aided diagnosis of skeletal metastases in multi-parametric whole-body MRI},
