@@ -2,7 +2,7 @@
 # Computer-Aided Diagnosis of Skeletal Metastases in Multi-Parametric Whole-Body MRI
 Official Implementation of "Computer-Aided Diagnosis of Skeletal Metastases in Multi-Parametric Whole-Body MRI"
 
-**The full paper is available at :** [Computer Methods and Programs in Biomedicine ](https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine)
+**The full paper is available at :** [Computer Methods and Programs in Biomedicine ](https://www.sciencedirect.com/science/article/abs/pii/S0169260723004777?via%3Dihub)
 
 
 
@@ -32,7 +32,7 @@ python Inference.py --pretrain_dir=/path/to/model_best.pt --data_dir=/path/to/Da
 ```
 
 ## Dataset
-- The dataset should be structured as indicated below to run the scripts. Note that each patient has five associated images: T1, b1000, ADC and mask, and a skeleton mask. More clarification on the preprocessing steps applied to the dataset before running the scripts can be found in (add reference later when the paper is published) 
+- The dataset should be structured as indicated below to run the scripts. Note that each patient has five associated images: T1, b1000, ADC and mask, and a skeleton mask. More clarification on the preprocessing steps applied to the dataset before running the scripts can be found in  section 2.2 of the paper. 
 ```
 |-- Dataset
 |   |-- Train
@@ -84,5 +84,13 @@ The saved U-Net models obtained in this work can be found  [here (Dynamic U-nets
 ## Citation
 If you think this paper helps, please cite:
 ```
-Fill in when the paper is published
+@article{ceranka2023computer,
+  title={Computer-aided diagnosis of skeletal metastases in multi-parametric whole-body MRI},
+  author={Ceranka, Jakub and Wuts, Joris and Chiabai, Oph{\'e}lye and Lecouvet, Fr{\'e}d{\'e}ric and Vandemeulebroucke, Jef},
+  journal={Computer Methods and Programs in Biomedicine},
+  volume={242},
+  pages={107811},
+  year={2023},
+  publisher={Elsevier}
+}
 ```
